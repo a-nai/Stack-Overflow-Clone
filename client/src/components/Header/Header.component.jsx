@@ -61,7 +61,7 @@ const Header = ({ auth: { isAuthenticated, loading, user }, logout }) => {
     return loading ? '' : <Fragment>
         <nav className='navbar fixed-top navbar-expand-lg navbar-light bs-md'>
             <Link className='navbar-brand' to='/'>
-                <Logo/>
+                Library
             </Link>
             {!loading && (
                 <Fragment>{isAuthenticated ? authTabs : guestTabs}</Fragment>
