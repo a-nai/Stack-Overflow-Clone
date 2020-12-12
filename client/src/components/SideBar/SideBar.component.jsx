@@ -22,6 +22,7 @@ const SideBar = () => (
                 </NavLink>
                 <NavLink activeClassName='active' className='link nav_link' to='/tags/Русский' >
                     <p>Русский</p>
+                </NavLink>
                 <NavLink activeClassName='active' className='link nav_link' to='/tags/Español' >
                     <p>Español</p>
                 </NavLink>
@@ -31,24 +32,22 @@ const SideBar = () => (
                 <NavLink activeClassName='active' className='link nav_link' to='/tags/Italiano' >
                     <p>Italiano</p>
                 </NavLink>
-                                    <NavLink activeClassName='active' className='link nav_link' to='/tags/Português' >
+                <NavLink activeClassName='active' className='link nav_link' to='/tags/Português' >
                     <p>Português</p>
                 </NavLink>
                     
-                                    <NavLink activeClassName='active' className='link nav_link' to='/tags/Polski' >
+                <NavLink activeClassName='active' className='link nav_link' to='/tags/Polski' >
                     <p>Polski</p>
                 </NavLink>
-                    
-                    
-                                    <NavLink activeClassName='active' className='link nav_link' to='/tags/日本語' >
+                <NavLink activeClassName='active' className='link nav_link' to='/tags/日本語' >
                     <p>日本語</p>
                 </NavLink>
                     
-                                    <NavLink activeClassName='active' className='link nav_link' to='/tags/Français' >
+                <NavLink activeClassName='active' className='link nav_link' to='/tags/Français' >
                     <p>Français</p>
                 </NavLink>
                     
-                                    <NavLink activeClassName='active' className='link nav_link' to='/tags/中文' >
+                <NavLink activeClassName='active' className='link nav_link' to='/tags/中文' >
                     <p>中文</p>
                 </NavLink>
                     <NavLink activeClassName='active' className='link nav_link' to='/tags/English' >
