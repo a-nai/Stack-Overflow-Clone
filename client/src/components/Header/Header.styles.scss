@@ -31,9 +31,11 @@
   padding-left: 16px;
   padding-right: 16px;
   margin-right: 0;
+  font-size: 250%;
+  color: grey;
 
   &:hover {
-    background-color: #404345;
+    color: white;
   }
 }
 
