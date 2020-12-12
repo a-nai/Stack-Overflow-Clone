@@ -7,6 +7,7 @@ USE stack_overflow_v2;
       username VARCHAR(255) UNIQUE NOT NULL,
       password VARCHAR(100),
       views INT DEFAULT 0,
+      balance FLOAT DEFAULT 0,
       created_at TIMESTAMP DEFAULT NOW()
  );
 
@@ -17,6 +18,7 @@ USE stack_overflow_v2;
      views INT DEFAULT 0,
      created_at TIMESTAMP DEFAULT NOW(),
      user_id INT NOT NULL,
+     enlang_id INT NOT NULL,
      FOREIGN KEY(user_id) REFERENCES users(id)
  );
 
